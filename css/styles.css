@@ -1,3 +1,7 @@
 label {
   min-height: 50px;
 }
+
+.rec {
+  display: none;
+}

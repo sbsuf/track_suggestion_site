@@ -24,6 +24,7 @@ $(document).ready(function() {
     else {
       alert("Please answer all questions!");
     }
+    $(".panel-heading").empty().append("<span>We recommend following track</span>")
     $("#main").empty().append(result);
     $(".rec").show();
     event.preventDefault();
