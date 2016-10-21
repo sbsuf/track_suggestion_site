@@ -10,63 +10,66 @@
   </head>
   <body>
       <div class="container">
+        <div class="jumbotron">
+          <h1>Track Suggestion Site</h1>
+          <p>There are lot of trackes you can take, please answer the following 6 different questions, we will provide different track suggestions based on your answers</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
         <div class="row">
           <div class="col-md-12">
             <form>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="exp">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">How many years of coding experience do you have?</label>
+                <select class="form-control" id="qus1">
+                  <option value="1">1-2 years</option>
+                  <option value="2">2-5 years</option>
+                  <option value="3">5 years or more</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="lan">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">What is your education background?</label>
+                <select class="form-control" id="qus2">
+                  <option value="1">Some college</option>
+                  <option value="2">Undergraduate</option>
+                  <option value="3">Graduate School or above</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="sty">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">Do you want to become frontend or backend web developer?</label>
+                <select class="form-control" id="qus3">
+                  <option value="1">Frontend</option>
+                  <option value="2">Backend</option>
+                  <option value="3">Both</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="med">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">What Operating system do you use regularly?</label>
+                <select class="form-control" id="qus4">
+                  <option value="1">Mac OSX</option>
+                  <option value="2">Windows</option>
+                  <option value="3">Linux</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="mac">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">Do you like to become mobile APP or just web only or both?</label>
+                <select class="form-control" id="qus5">
+                  <option value="1">Mobile APP</option>
+                  <option value="2">Web Only</option>
+                  <option value="3">Both</option>
                 </select>
               </div>
               <div class="form-group col-md-4">
-                <label for="">How many years of coding experience</label>
-                <select class="form-control" id="smt">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
+                <label for="">What is your career goal?</label>
+                <select class="form-control" id="qus6">
+                  <option value="1">Startup</option>
+                  <option value="2">Work for tech company</option>
+                  <option value="3">Both</option>
                 </select>
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
-            <div class="rec">
-                <p id="ruby">
-
-                </p>
+            <div class="rec well">
+              <h3 id="main"></h3>
             </div>
           </div>
         </div>
