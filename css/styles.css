@@ -1,6 +1,6 @@
 label {
-  min-height: 50px;
-  min-width: 100px;
+  display: block;
+  height: 80px;
 }
 
 .rec {
@@ -24,4 +24,12 @@ label {
 
 .well {
   background-color: orange;
+}
+
+.copyright {
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
 }

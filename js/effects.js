@@ -1,5 +1,4 @@
-$( "#fadein" ).submit(function() {
-  $( ".rec" ).fadeIn( "slow", function() {
+$( "#fadein" ).click(function() {
+  $( ".rec" ).fadeIn("slow");
     // Animation complete
-  });
 });

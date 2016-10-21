@@ -30,7 +30,7 @@ $(document).ready(function() {
     }
     $(".panel-title").empty().append("<span>Dear"+" "+fullname+"</span>"+"<br>"+"<br>"+"<em>We would recommend" + " " + "<span>" + language + "</span>" + " " + "track for you.</em>");
     $("#main").empty().append(result);
-    $(".rec").show();
+    $(".rec").fadeIn();
     event.preventDefault();
   });
 });
