@@ -1,5 +1,6 @@
 label {
   min-height: 50px;
+  min-width: 100px;
 }
 
 .rec {
@@ -14,4 +15,13 @@ label {
 
 .panel {
   margin-top: 50px;
+}
+
+.jumbotron {
+  background-color: #6f5499;
+  color: white;
+}
+
+.well {
+  background-color: orange;
 }
